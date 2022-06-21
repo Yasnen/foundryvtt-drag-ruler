@@ -3,16 +3,16 @@
 		"dependencies": {
 			"ok": "OK",
 			"terrain-ruler": {
-				"title": "How to measure difficult terrain with Drag Ruler",
-				"text": "You have the {moduleName} module enabled. Drag Ruler is able to measure difficult terrain that was placed down using that module. To make this possible Drag Ruler utilizes the Terrain Ruler module. If Terrain Ruler is installed and activated Drag Ruler will automatically start to respect difficult terrain in it's measurements.",
-				"neverShowAgain": "Never show this again"
+				"title": "移動困難地形をDrag Rulerで扱う方法",
+				"text": "{moduleName}のモジュールが有効になっています。Drag Rulerでは、このモジュールで配置した移動困難地形を取り扱うことが出来ます。Terrain Rulerモジュールが有効化されていると、Drag Rulerは自動で移動困難地形を考慮した計算をおこなします。",
+				"neverShowAgain": "再度表示しない"
 			},
 			"socketlib": {
-				"title": "Socketlib Module Missing",
-				"text": "Drag Ruler requires the socketlib module to work properly. Please activate the socketlib module in this world."
+				"title": "Socketlibモジュールがありません",
+				"text": "Drag Rulerが正常に動作するために、Socketlibモジュールが必用です。このワールドでSocketlibを有効にしてください。"
 			}
 		},
-		"resetMovementHistory": "Reset Movement History",
+		"resetMovementHistory": "移動履歴のリセット",
 		"genericSpeedProvider": {
 			"settings": {
 				"dashMultiplier": {
