@@ -117,5 +117,8 @@
 				"hint": "グリッドの無いシーンでは、トークンが移動できる距離でスナップされます。"
 			}
 		}
+		,"comment": {
+			"localization-ja": "This file (ja.json) was created from scratch by Yasnen, and although Brother Sharper is listed as a contributor on githhub, this file does not include his contributions.\nこのファイル(ja.json)はYasnenがゼロから作成しました。githhubではBrother Sharperがcontributorsに入っていますが、本ファイルには彼の貢献は含まれておりません。"
+		}
 	}
 }
