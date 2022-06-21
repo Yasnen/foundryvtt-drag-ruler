@@ -16,17 +16,17 @@
 		"genericSpeedProvider": {
 			"settings": {
 				"dashMultiplier": {
-					"name": "Dash Multiplier",
-					"hint": "This can be used to give tokens a secondary speed during coloring of the measured path. Set it to 0 to disable the secondary speed."
+					"name": "ダッシュの倍率",
+					"hint": "経路計算の色分けで第二の移動力算出に使用する。0を設定すると第二の移動力は無効になります。"
 				},
 				"speedAttribute": {
-					"name": "Speed Attribute",
-					"hint": "The attribute that defines a token's walking speed. This is used during coloring of the measured path."
+					"name": "移動力の属性",
+					"hint": "トークンの歩く移動力が定義されている属性。経路計算の色分けに使用されます。"
 				}
 			},
 			"speeds": {
-				"walk": "walk",
-				"dash": "dash"
+				"walk": "歩行",
+				"dash": "ダッシュ"
 			}
 		},
 		"keybindings": {
@@ -84,31 +84,31 @@
 				"name": "移動力情報の設定",
 				"hint": "移動力情報の設定ではゲームシステム固有の設定項目を全て設定できます。",
 				"button": "移動力情報の設定",
-				"windowTitle": "Speed Provider Settings",
+				"windowTitle": "移動力情報の設定",
 				"headers": {
-					"speedProvider": "Speed Provider",
-					"speedProviderSettings": "Speed Provider specific settings"
+					"speedProvider": "移動力情報",
+					"speedProviderSettings": "移動力情報の固有設定"
 				},
 				"activeProvider": {
-					"name": "Currently active Speed Provider",
-					"hint": "The settings show below depend on the active speed provider. If the GM selects a different speed provider the available settings may change."
+					"name": "現在有効な移動力情報プロバイダ",
+					"hint": "以下に示す設定は、有効な移動力情報プロバイダに依ります。GMが異なる移動力情報プロバイダを選択すると、利用可能な設定が変更されることがあります。"
 				},
-				"noSettings": "This speed provider doesn't offer any configuration options.",
+				"noSettings": "この移動力情報プロバイダには設定オプションが有りません。",
 				"color": {
-					"name": "Color for {colorName}",
-					"hint": "The color that will be used to color squares that are within {colorName} range",
+					"name": "{colorName} の色",
+					"hint": "{colorName} に含まれる場所を示す色",
 					"unreachable": {
-						"name": "unreachable",
-						"hint": "The color for spaces that aren't reachable by the dragged token"
+						"name": "到達不能",
+						"hint": "ドラッグしたトークンが到達不能な場所を示す色"
 					}
 				},
 				"speedProvider": {
-					"name": "Speed Settings Provider",
-					"hint": "Select who provides speed information for tokens duing coloring. Drag Ruler offers a generic speed provider that provides basic functionality and should work for all game systems if configured correctly. More speed providers can be made available via game systems and installed modules. Selecting a different speed provider than the generic speed provider may offer a better integration into the rules of the game system you're using. The options below are dependent upon the speed provider selected here.",
+					"name": "移動力情報プロバイダ",
+					"hint": "トークンの色付けに使用する移動力情報プロバイダを選択する。Drag Rulerは、基本的な機能を提供する汎用的な移動力情報プロバイダを提供しており、正しく設定すればすべてのゲームシステムで機能するはずです。ゲームシステムやインストールされたモジュールによって、より多くの移動力情報プロバイダが利用できるようになります。一般的な移動力情報プロバイダとは異なる移動力情報プロバイダを選択することで、使用しているゲームシステムのルールにうまく統合できるかもしれません。以下のオプションは、ここで選択した移動力情報プロバイダに依存します。",
 					"choices": {
-						"module": "Module {name}",
-						"native": "Generic",
-						"system": "System {name}"
+						"module": "モジュール {name}",
+						"native": "汎用",
+						"system": "システム {name}"
 					}
 				}
 			},
