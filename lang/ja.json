@@ -30,20 +30,20 @@
 			}
 		},
 		"keybindings": {
-			"cancelDrag": "Cancel dragging",
-			"createWaypoint": "Create waypoint",
-			"deleteWaypoint": "Delete waypoint",
+			"cancelDrag": "ドラッグの中断",
+			"createWaypoint": "経由地点の作成",
+			"deleteWaypoint": "経由地点の削除",
 			"disableSnap": {
-				"name": "Disable snapping",
-				"hint": "Snapping will be temporarily disabled while this key is being held down"
+				"name": "スナップ無効化",
+				"hint": "このキーの押下中は一時的にスナッピングが無効になります"
 			},
 			"moveWithoutAnimation": {
-				"name": "Disable token animation",
-				"hint": "When being held while dropping a token, the token will move to the target location without animating"
+				"name": "トークンアニメーションの無効化",
+				"hint": "このキーを押下しながらトークンをドロップすると、アニメーションなしに目的地へ移動します"
 			},
 			"togglePathfinding": {
-				"name": "Toggle pathfinding",
-				"hint": "When being held while dragging a token, the pathfinding functionality will be temporarily enabled/disabled"
+				"name": "経路計算の切替",
+				"hint": "トークンのドラッグ中に押下すると、経路計算機能を一時的に有効／無効にします"
 			}
 		},
 		"settings": {
